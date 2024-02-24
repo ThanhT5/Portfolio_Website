@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Include jQuery from a CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+  <body>
+    <nav class="nav">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+        <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+        <path
+          d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"
+        />
+      </svg>
+      <ul class="hidden-nav">
+        <li class="nav-item">
+          <a href="#projects" class="nav-section">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                d="M160.8 96.5c14 17 31 30.9 49.5 42.2c25.9 15.8 53.7 25.9 77.7 31.6V138.8C265.8 108.5 250 71.5 248.6 28c-.4-11.3-7.5-21.5-18.4-24.4c-7.6-2-15.8-.2-21 5.8c-13.3 15.4-32.7 44.6-48.4 87.2zM320 144v30.6l0 0v1.3l0 0 0 32.1c-60.8-5.1-185-43.8-219.3-157.2C97.4 40 87.9 32 76.6 32c-7.9 0-15.3 3.9-18.8 11C46.8 65.9 32 112.1 32 176c0 116.9 80.1 180.5 118.4 202.8L11.8 416.6C6.7 418 2.6 421.8 .9 426.8s-.8 10.6 2.3 14.8C21.7 466.2 77.3 512 160 512c3.6 0 7.2-1.2 10-3.5L245.6 448H320c88.4 0 160-71.6 160-160V128l29.9-44.9c1.3-2 2.1-4.4 2.1-6.8c0-6.8-5.5-12.3-12.3-12.3H400c-44.2 0-80 35.8-80 80zm80-16a16 16 0 1 1 0 32 16 16 0 1 1 0-32z"
+              />
+            </svg>
+            <span class="section-text">Projects</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#services" class="nav-section">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+              <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                d="M309.6 158.5L332.7 19.8C334.6 8.4 344.5 0 356.1 0c7.5 0 14.5 3.5 19 9.5L392 32h52.1c12.7 0 24.9 5.1 33.9 14.1L496 64h56c13.3 0 24 10.7 24 24v24c0 44.2-35.8 80-80 80H464 448 426.7l-5.1 30.5-112-64zM416 256.1L416 480c0 17.7-14.3 32-32 32H352c-17.7 0-32-14.3-32-32V364.8c-24 12.3-51.2 19.2-80 19.2s-56-6.9-80-19.2V480c0 17.7-14.3 32-32 32H96c-17.7 0-32-14.3-32-32V249.8c-28.8-10.9-51.4-35.3-59.2-66.5L1 167.8c-4.3-17.1 6.1-34.5 23.3-38.8s34.5 6.1 38.8 23.3l3.9 15.5C70.5 182 83.3 192 98 192h30 16H303.8L416 256.1zM464 80a16 16 0 1 0 -32 0 16 16 0 1 0 32 0z"
+              />
+            </svg>
+            <span class="section-text">Services</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#about" class="nav-section">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                d="M278.5 215.6L23 471c-9.4 9.4-9.4 24.6 0 33.9s24.6 9.4 33.9 0l74.8-74.8c7.4 4.6 15.3 8.2 23.8 10.5C200.3 452.8 270 454.5 338 409.4c12.2-8.1 5.8-25.4-8.8-25.4l-16.1 0c-5.1 0-9.2-4.1-9.2-9.2c0-4.1 2.7-7.6 6.5-8.8l97.7-29.3c3.4-1 6.4-3.1 8.4-6.1c4.4-6.4 8.6-12.9 12.6-19.6c6.2-10.3-1.5-23-13.5-23l-38.6 0c-5.1 0-9.2-4.1-9.2-9.2c0-4.1 2.7-7.6 6.5-8.8l80.9-24.3c4.6-1.4 8.4-4.8 10.2-9.3C494.5 163 507.8 86.1 511.9 36.8c.8-9.9-3-19.6-10-26.6s-16.7-10.8-26.6-10C391.5 7 228.5 40.5 137.4 131.6C57.3 211.7 56.7 302.3 71.3 356.4c2.1 7.9 12 9.6 17.8 3.8L253.6 195.8c6.2-6.2 16.4-6.2 22.6 0c5.4 5.4 6.1 13.6 2.2 19.8z"
+              />
+            </svg>
+            <span class="section-text">About</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-section">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+              <!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                d="M181.5 197.1l12.9 6.4c5.9 3 12.4 4.5 19.1 4.5c23.5 0 42.6-19.1 42.6-42.6V144c0-35.3-28.7-64-64-64H128c-35.3 0-64 28.7-64 64v21.4c0 23.5 19.1 42.6 42.6 42.6c6.6 0 13.1-1.5 19.1-4.5l12.9-6.4 8.4-4.2L135.1 185c-4.5-3-7.1-8-7.1-13.3V168c0-13.3 10.7-24 24-24h16c13.3 0 24 10.7 24 24v3.7c0 5.3-2.7 10.3-7.1 13.3l-11.8 7.9 8.4 4.2zm-8.6 49.4L160 240l-12.9 6.4c-12.6 6.3-26.5 9.6-40.5 9.6c-3.6 0-7.1-.2-10.6-.6v.6c0 35.3 28.7 64 64 64h64c17.7 0 32 14.3 32 32s-14.3 32-32 32H384V336 320c0-23.7 12.9-44.4 32-55.4c9.4-5.4 20.3-8.6 32-8.6V240c0-26.5 21.5-48 48-48c8.8 0 16 7.2 16 16v32 16 48c0 8.8 7.2 16 16 16s16-7.2 16-16V204.3c0-48.2-30.8-91-76.6-106.3l-8.5-2.8c-8-2.7-12.6-11.1-10.4-19.3s10.3-13.2 18.6-11.6l19.9 4C576 86.1 640 164.2 640 254.9l0 1.1h0c0 123.7-100.3 224-224 224h-1.1H256h-.6C132 480 32 380 32 256.6V256 216.8c-10.1-14.6-16-32.3-16-51.4V144l0-1.4C6.7 139.3 0 130.5 0 120c0-13.3 10.7-24 24-24h2.8C44.8 58.2 83.3 32 128 32h64c44.7 0 83.2 26.2 101.2 64H296c13.3 0 24 10.7 24 24c0 10.5-6.7 19.3-16 22.6l0 1.4v21.4c0 1.4 0 2.8-.1 4.3c12-6.2 25.7-9.6 40.1-9.6h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-13.3 0-24 10.7-24 24v8h56.4c-15.2 17-24.4 39.4-24.4 64H320c-42.3 0-78.2-27.4-91-65.3c-5.1 .9-10.3 1.3-15.6 1.3c-14.1 0-27.9-3.3-40.5-9.6zM96 128a16 16 0 1 1 0 32 16 16 0 1 1 0-32zm112 16a16 16 0 1 1 32 0 16 16 0 1 1 -32 0z"
+              />
+            </svg>
+            <span class="section-text">Contact</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <section id="projects">
+        <h1>Projects</h1>
+        <div class="project-container">
+          <div class="project1">
+              <img src="images\Project_1.png" alt="Project 1" class="project-image"/>
+              <p class="description">
+                This meticulously crocheted rabbit is a testament to my passion
+                and skill in the art of crochet. Crafted with high-quality yarn,
+                this adorable rabbit is a showcase of the intricate detail and
+                care I put into every stitch. From its expressive eyes to the
+                fluffy tail, every aspect of the rabbit has been carefully
+                designed to highlight its character and charm. This piece
+                demonstrates my expertise in creating lifelike crocheted animals
+                that capture the essence of their real-world counterparts. By
+                utilizing a variety of stitches and techniques, I've achieved a
+                level of detail and realism that makes this rabbit a standout
+                piece in any collection.
+              </p>
+            </div>
+            <div class="project2">
+              <img src="images\Project_2.png" alt="Project 2" class="project-image"/>
+              <p class="description">
+                This handcrafted crocheted red panda reflects the depth of my 
+                creativity and proficiency with crochet. Utilizing high-grade 
+                yarn, this delightful red panda showcases the meticulous care 
+                and intricate detailing that define my work. Each element, from 
+                the vibrant hues of its fur to its gentle, engaging eyes, has 
+                been thoughtfully executed to capture the spirit and charm of 
+                this beloved creature. The red panda, with its distinctive 
+                reddish-brown fur and bushy tail, is portrayed in a playful 
+                stance, inviting onlookers to appreciate the texture and 
+                lifelike quality of the crochet. My approach combines various 
+                crochet techniques to replicate the red panda’s natural markings 
+                and soft appearance, highlighting my ability to craft realistic 
+                animal figures. This piece serves as a cozy accent or a memorable 
+                gift, embodying the warmth and enchantment of handmade crafts. It 
+                illustrates my talent for turning yarn into expressive, captivating 
+                art that resonates with viewers. Featuring in my portfolio, this 
+                crocheted red panda stands as a testament to my innovative approach 
+                to crochet, offering a glimpse into my capacity to breathe life into 
+                yarn, creating pieces that are not only visually stunning but also 
+                evoke a sense of connection and wonder.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="spacer1">
+        <img src="images\Yarn_ball.png" alt="Spacer Ball" class="spacer-ball"/>
+      </section>
+      <section id="services">
+        <h2>Services Offered</h2>
+        <div class="service">
+          <h3>Designing Patterns</h3>
+          <p>
+            Custom crochet patterns tailored to your preferences and project
+            needs.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Crocheting Projects</h3>
+          <p>
+            High-quality crocheting services, from small accessories to large
+            garments.
+          </p>
+        </div>
+        <div class="service">
+          <h3>Custom Projects</h3>
+          <p>
+            Bring your ideas to life with fully customizable crochet projects.
+          </p>
+        </div>
+      </section>
+      <section id="spacer2">
+        <img src="images\Giraffe.png" alt="Spacer Giraffe" class="spacer-giraffe"/>
+      </section>
+      <section id="about">
+        <h1>About Me</h1>
+        <div class="about-content">
+          <img src="images\Profile Picture.jpg" alt="Profile Picture" />
+          <p>
+            I am a passionate and skilled crocheter with a love for creating
+            lifelike animals and intricate designs. My work is a testament to my
+            dedication to the craft and my ability to bring ideas to life through
+            crochet. I specialize in designing custom patterns and creating
+            high-quality crocheted projects that capture the essence of their
+            real-world counterparts. With a keen eye for detail and a commitment
+            to excellence, I strive to deliver exceptional work that exceeds
+            expectations and brings joy to those who appreciate the art of
+            crochet.
+          </p>
+      </section>
+    </section>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form
+          id="contactForm"
+          action="YOUR_FORM_SUBMISSION_ENDPOINT"
+          method="POST"
+        >
+          <div class="row">
+            <input type="text" name="name" placeholder="Name" required />
+          </div>
+          <div class="row">
+            <input
+              type="email"
+              name="email"
+              placeholder="Email"
+              required
+            />
+            <input
+              type="tel"
+              name="phone"
+              placeholder="Phone Number"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              title="Format: 123-456-7890"
+              required
+            />
+          </div>
+          <div class="row">
+            <textarea
+              name="inquiry"
+              placeholder="Inquiry"
+              rows="4"
+              required
+            ></textarea>
+          </div>
+          <div class="row">
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+        <!-- formspree for form submission -->
+        <div id="socialMediaIcons">
+          <a href="https://www.instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
